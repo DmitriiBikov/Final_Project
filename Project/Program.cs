@@ -40,4 +40,4 @@ string[] input = GetString();
 string[] output = FindLess(input, 3);
 
 Console.WriteLine($"Введено раннее: {string.Join(", ", input)}");
-Console.WriteLine($"Результат из строк, длина которых меньше либо равна 3 символов: {string.Join(", ", output)}");
+Console.WriteLine($"Результат из строк, длина которых меньше либо равна 3 символов : {string.Join(", ", output)}");
